@@ -1,0 +1,16 @@
+{
+    "name": "app/projet-cms-decembre",
+    "description": "projetForum",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandre Lagoutte",
+            "email": "62607050+Alexandre2810@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+
+    <!-- Users -->
+    <route p="/" controller="UserController" action="index"/>
+    <route p="usersList" controller="UserController" action="showUsers"/>
+    <!-- Posts -->
+    <route p="posts" controller="PostController" action="postsApi" params="id,number"/>
+
+    <!-- Security -->
+    <route p="login" controller="UserController" action="loginUser"/>
+    <route p="CreateAccount" controller="SecurityController" action="createAccount"/>
+    <route p="connexion" controller="SecurityController" action="connexion"/>
+    <route p="deconnexion" controller="SecurityController" action="deconnexion"/>
+</routes>
